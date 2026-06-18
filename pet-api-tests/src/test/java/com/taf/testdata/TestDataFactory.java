@@ -4,13 +4,12 @@ import com.taf.restapi.enums.PetStatus;
 import com.taf.restapi.models.Category;
 import com.taf.restapi.models.PetDTO;
 import com.taf.restapi.models.Tag;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 
+@NoArgsConstructor
 public class TestDataFactory {
-
-    private TestDataFactory() {
-    }
 
     public static PetDTO getBasicPetDto() {
          return PetDTO.builder()

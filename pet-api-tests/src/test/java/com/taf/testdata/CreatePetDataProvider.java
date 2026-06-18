@@ -4,7 +4,6 @@ import org.testng.annotations.DataProvider;
 
 public class CreatePetDataProvider {
 
-
     @DataProvider(name = "getBodyWithOutRequiredFields")
     public static Object[][] getBodyWithOutRequiredFields() {
         return new Object[][]{
