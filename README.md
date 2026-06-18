@@ -19,6 +19,7 @@ Implemented checks include:
 ## Tech stack
 
 - Java 17
+- Spring
 - Gradle
 - REST Assured
 - TestNG
@@ -34,7 +35,7 @@ Implemented checks include:
 ./gradlew clean :pet-api-tests:test
 ```
 
-## How to Allure report
+## How to use Allure report
 
 ## Generate report:
 ```bash
