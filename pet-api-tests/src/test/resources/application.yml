@@ -1,0 +1,5 @@
+api:
+  pet:
+    base-url: https://petstore.swagger.io
+    create-pet: /v2/pet
+    pet-path-with-id: /v2/pet/%s

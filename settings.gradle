@@ -1,1 +1,3 @@
 rootProject.name = 'petstore-test'
+include (':restapi-steps')
+include (':pet-api-tests')
