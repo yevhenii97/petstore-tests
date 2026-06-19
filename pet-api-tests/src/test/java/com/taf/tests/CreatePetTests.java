@@ -52,6 +52,7 @@ public class CreatePetTests extends BaseTest {
         softAssertions.assertThat(actualPet.getStatus())
                 .as("Check status")
                 .isEqualTo(requestBody.getStatus());
+//      we can add for each field such assertion
 
         softAssertions.assertAll();
     }
